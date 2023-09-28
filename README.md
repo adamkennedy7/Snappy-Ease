@@ -7,11 +7,9 @@ Version 1.0
 - [Snappy Ease for Adobe After Effects 🏄](#snappy-ease-for-adobe-after-effects-)
   - [✨ Overview](#-overview)
   - [💎 Features](#-features)
-  - [💻 Installation \& Usage](#-installation--usage)
-    - [How to Install](#how-to-install)
-    - [Windows](#windows)
-    - [Mac](#mac)
+  - [💻 How to Install](#-how-to-install)
   - [▶️ How to Run](#️-how-to-run)
+  - [✅ Results](#-results)
   - [📎 Source code](#-source-code)
 
 
@@ -25,29 +23,15 @@ Quickly apply a *snappy* easing to selected keyframes in Adobe After Effects.
 - Automated ease setting for multiple keyframes.
 - Custom dialog box showing the number of modified keyframes.
 - Select, Run, *Snap!*
-
-## 💻 Installation & Usage
-
-### How to Install
 - **Mac & PC compatible.**
-- Adobe After Effects must be installed.
-- After following the below instructions, please restart After Effects.
 
-### Windows
-We're going to copy the *.jsx* file into *C:\Program Files\Adobe\Adobe After Effects 2023\Support Files\Scripts*
+## 💻 How to Install
 
-1. Open **File Explorer** and navigate to **C:\Program Files\Adobe**
-2. Locate the version of After Effects you usually work with and open its folder.
-3. Inside, locate the **Support Files** folder and then find the **Scripts folder**. 
-4. Copy the **SnappyEase.jsx** file into this **Scripts** folder.
-5. The next time you open After Effects, you will find the script under **File > Scripts**.
-
-### Mac
-1. Open **Finder** and navigate to **/Applications/Adobe After Effects <version>**
-2. Open the **Scripts** folder located within.
-3. Copy the **SnappyEase.jsx** file into this **Scripts** folder.
-
-The script will then appear in the **File > Scripts** menu.
+- Download the script (`.jsx`) file.
+- In After Effects, navigate to **File > Scripts > Install Script File**
+- Select the script file to install.
+- Restart After Effects.
+- The script will then appear in the **File > Scripts** menu.
 
 ## ▶️ How to Run
 
@@ -56,11 +40,10 @@ The script will then appear in the **File > Scripts** menu.
 3. Execute the script.
 4. **Select keyframes in an active composition and run the script. You will see a confirmation dialog stating the results!**
 
-Result:
-
+## ✅ Results
+![Snappy Ease Result](./screenshot/IMG__result.png)
 `For all selected keyframes, in- and out-easing velocity influence will be set to 75% and 50% respectively.`
 
-![Snappy Ease Result](./screenshot/IMG__result.png)
 
 ## 📎 Source code
 
